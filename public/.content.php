@@ -12,3 +12,5 @@ if($client->get('test')) {
     $client->set('test', 'hi');
     $client->expire('test', 10);
 }
+
+echo "<pre>"; var_dump(sys_getloadavg()); echo "</pre>";
