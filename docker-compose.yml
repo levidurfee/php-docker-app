@@ -19,7 +19,7 @@ services:
   app:
     image: php:fpm
     deploy:
-      replicas: 2
+      replicas: 5
       restart_policy:
         condition: on-failure
     ports:
